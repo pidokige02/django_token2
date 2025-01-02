@@ -1,0 +1,23 @@
+// assets/styles/main.scss
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  color: $primary-color;
+}
+
+.btn {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: darken($primary-color, 10%);
+}
